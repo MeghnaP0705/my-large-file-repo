@@ -4,6 +4,28 @@ This project focuses on detecting and counting vehicles from CCTV footage across
 
 ## **Step-by-Step Instructions to create the Docker File**
 
+### **Prerequisites**
+Ensure Docker is installed on your machine. You can follow the Docker installation guide for your operating system.
+
+
+### **Building the Docker Image**
+
+1. Cloning the repository
+
+`git clone https://github.com/NehaJimmy/EmobilityHackathon.git
+cd EmobilityHackathon`
+
+2. Build the docker image
+   
+`docker build -t emobility-hackathon` 
+
+
+### **Running the Docker Container**
+
+`docker run -it --rm -v $(pwd):/app emobility-hackathon`
+
+
+![image](https://github.com/user-attachments/assets/8b08d8b9-5af4-48bc-b940-2c0e8696b6ca)
 
 ## **Names and descriptions of the various notebooks used**
 **1. Yolov7_custom_Training.ipynb**
