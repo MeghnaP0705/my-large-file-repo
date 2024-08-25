@@ -48,36 +48,30 @@ This is the placeholder for the README file that usually contains detailed instr
 
 ## **Requirements.txt**
 
-#YOLOv7 dependencies
-torch>=1.7.0
-torchvision>=0.8.0
-numpy
-pandas
+A requirements.txt file includes the necessary libraries for vehicle detection and counting using YOLOv7, Roboflow, centroid tracking, time series prediction with Prophet, and data storage using CSV or JSON files. It also covers dependencies for Docker.
 
-#YOLOv7 dependencies
-torch>=1.7.0
-torchvision>=0.8.0
-numpy
-pandas
+![image](https://github.com/user-attachments/assets/313515fb-c6f7-42df-8842-2dd99a78701b)
 
-#Roboflow SDK
-roboflow
+## Open source models used
 
-#Centroid Tracker for vehicle tracking
-scikit-learn
+YOLO v7: https://github.com/WongKinYiu/yolov7
 
-#Time Series Prediction
-prophet
+Roboflow: https://roboflow.com/
 
-#Data Storage
-pandas
-csv file
-json file
+Prophet: https://facebook.github.io/prophet/
 
-#Docker (for building Docker images)
-docker
+Docker: https://docs.docker.com/build/
 
-#Additional utility libraries
-requests
-matplotlib
+## System Requirements
 
+To run the code, the following system specifications are required:
+
+GPU: NVIDIA GPU with at least 8GB of VRAM (e.g., NVIDIA RTX 3080)
+
+RAM: Minimum 16GB
+
+CPU: Quad-core Intel or AMD processor with 2.5 GHz or higher
+
+Disk Space: Minimum 50GB of free space
+
+Operating System: Ubuntu 20.04 LTS or Windows 10
